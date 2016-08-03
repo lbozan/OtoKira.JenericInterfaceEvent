@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ConsolLib.Models;
 
 namespace JenericAndEventAndDelegate
 {
@@ -9,7 +10,7 @@ namespace JenericAndEventAndDelegate
     {
         static void Main(string[] args)
         {
-            AnaMenu<IAraclar> a = new AnaMenu<IAraclar>();
+            Run<IAraclar> a = new Run<IAraclar>();
             a.liste.Add(new Opel { Model = "Insigna", Plaka = "21 Mx 21", Renk = "Gri", KiraDurum = true, KiraSay = 3 });
             a.liste.Add(new Renault { Model = "Reno 19", Plaka = "22 Mx 22", Renk = "Beyaz", KiraDurum = false, KiraSay = 0 });
             a.liste.Add(new Fiat { Model = "Fiat Srs", Plaka = "23 Mx 23", Renk = "Kırmızı", KiraDurum = true, KiraSay = 5 });
