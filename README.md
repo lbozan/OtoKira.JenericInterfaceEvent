@@ -1,2 +1,2 @@
-# OtoKira.JenericInterfaceEvent
-Consol ile Jeneric, Interface, Delegate, Event birleştirerek bir oto kiralama uygulaması
+# Araç Kiralama
+Consol ile Jeneric, Interface, Delegate, Event birleştirerek bir Araç kiralama uygulaması
